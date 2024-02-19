@@ -25,7 +25,7 @@ python manage.py createsuperuser
 python manage.py 0.0.0.0:8000  --noreload
 
 # to import using cli
-python manage.py data_import --file examples/pois.csv --file examples/pois.xml
+python manage.py data_import --file examples/short_pois.csv --file examples/pois.xml
 
 # to run unittests
 python manage.py test point_of_interest/tests
