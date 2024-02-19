@@ -4,13 +4,7 @@ from pathlib import Path
 
 from django.core.management.base import BaseCommand
 
-from point_of_interest.handler import (
-    FILE_PROVIDERS,
-    CSVProvider,
-    Handler,
-    JsonProvider,
-    XMLProvider,
-)
+from point_of_interest.handler import FILE_PROVIDERS, Handler
 
 logger = logging.getLogger(__name__)
 

@@ -1,13 +1,10 @@
 import io
-
 from subprocess import CompletedProcess
-from unittest import mock, TestCase
+from unittest import TestCase, mock
 
-from django.core.management import call_command, CommandError
+from django.core.management import call_command
 
 from point_of_interest.handler import CSVProvider, Handler
-
-
 from point_of_interest.models import Poi
 
 
